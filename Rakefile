@@ -15,21 +15,18 @@ task :update do
     system "git stash pop"
 end
 
-desc "Server page"
+desc "Run jekyll serve command"
 task :serve do
     system "jekyll serve --watch --force_polling"
 end
 
-desc "Generate blog files"
-task :generate do
-    Jekyll::Site.new(Jekyll.configuration({
-        "source"      => ".",
-        "destination" => "_site"
-    })).process
+desc "Run jekyll build command"
+task :build do
+    system "jekyll build"
 end
 
-desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
+desc "Build and publish blog to gh-pages"
+task :publish => [:build] do
     Dir.mktmpdir do |tmp|
         cp_r "_site/.", tmp
 
