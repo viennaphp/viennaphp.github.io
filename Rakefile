@@ -15,6 +15,11 @@ task :update do
     system "git stash pop"
 end
 
+desc "Server page"
+task :serve do
+    system "jekyll serve --watch --force_polling"
+end
+
 desc "Generate blog files"
 task :generate do
     Jekyll::Site.new(Jekyll.configuration({
