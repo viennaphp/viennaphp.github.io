@@ -15,17 +15,16 @@ title: Vienna PHP User Group
 <div class="row">
     <div class="small-1 large-1 columns">&nbsp;</div>
     <div class="small-10 large-10 columns">
-        <h2 id="anchor-next">Next Meetup</h2>
+        <h2 id="anchor-next">Next Meetup "{{ site.data.meetup.title }}"</h2>
         <div class="panel callout radius">
-            <h5>Monday, 10.11.2014, 18:30 at Stockwerk CoWorking</h5>
+            <h5>{{ site.data.meetup.date }}, {{ site.data.meetup.time }} at {{ site.data.meetup.location }}</h5>
             <h5>The agenda:</h5>
             <ul class="circle">
-                <li>"<strong>JavaScript for PHP developers</strong>" by Daniel Laxar</li>
-                <li>"<strong>Web Performance Tools: sitespeed.io & perfmap.js</strong>" by Michael Kröll</li>
-                <li>"<strong>Be pragmatic about your testing</strong>" by Ali Sharif</li>
-                <li>"<strong>TYPO3 Neos</strong>" by Florian Weiss</li>
+                {% for agenda in site.data.meetup.agenda %}
+                <li>"<strong>{{ agenda.title }}</strong>" by {{ agenda.speaker }}</li>
+                {% endfor %}
             </ul>
-            <p><strong><a href="http://www.meetup.com/viennaphp/events/211924212/" target="_blank">You should RSVP!</a></strong></p>
+            <p><strong><a href="{{ site.data.meetup.link }}" target="_blank">You should RSVP!</a></strong></p>
         </div>
      </div>
     <div class="small-1 large-1 columns">&nbsp;</div>
