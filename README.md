@@ -1,7 +1,7 @@
 viennaphp/viennaphp.github.org
 ==============================
 
-The ViennnaPHP website. View at [http://viennaphp.org](http://viennaphp.org)
+The ViennaPHP website. View at [http://viennaphp.org](http://viennaphp.org)
 
 ## Contribute
 
