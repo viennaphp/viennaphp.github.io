@@ -8,3 +8,7 @@ exclude: ['Rakefile']
 timezone: Europe/Vienna
 encoding: utf-8
 markdown: kramdown
+
+# Serve settings
+host: 0.0.0.0
+port: 4000
