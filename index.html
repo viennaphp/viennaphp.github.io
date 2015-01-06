@@ -84,7 +84,13 @@ title: Vienna PHP User Group
             {% for sponsor in site.data.sponsors.onetime %}
             <li class="left">
                 <a class="th radius" href="{{ sponsor.url }}" target="_blank">
+                    {% if sponsor.logo %}
                     <img src="media/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }} logo">
+                    {% else %}
+                    <div class="fallback-image">
+                        <span>{{ sponsor.name }}</span>
+                    </div>
+                    {% endif %}
                 </a>
             </li>
             {% endfor %}

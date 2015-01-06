@@ -31,5 +31,18 @@ body#default {
 
     ul.sponsors li {
         padding-right: 1rem;
+
+        div.fallback-image {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+
+            text-align: center;
+            span {
+                display:inline-block;
+
+                vertical-align:middle;
+            }
+        }
     }
 }
