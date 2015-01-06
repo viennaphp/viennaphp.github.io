@@ -16,11 +16,45 @@ recurring:
       url: http://m-software.at
       logo: m-software.png
 onetime:
+    - name: AlpinResorts.com
+      url: http://www.alpinresorts.com
+    - name: ArtWare
+      url: http://www.artware.at
+    - name: B&G CC
+      url: http://www.bgcc.at
     - name: DB Schenker
       url: http://www.dbschenker.at
       logo: db-schenker.jpg
+    - name: drunomics
+      url: http://drunomics.com
+    - name: DrupalCamp Vienna 2013
+      url: http://2013.drupalcamp.at
+    - name: EngineYard
+      url: http://www.engineyard.com
+    - name: GetDesigned
+      url: http://www.getdesigned.at/
+    - name: Ixolit
+      url: http://www.ixolit.com/de
+    - name: karriere.at
+      url: http://www.karriere.at
     - name: Keyosk Tablets
       url: http://www.keyosk-tablets.com
       logo: keyosk-tablets.jpg
+    - name: Medani Web & Design
+      url: http://www.medani.at
+    - name: Opendo
+      url: http://www.opendo.at
+    - name: OpenForce
+      url: http://www.openforce.com
+    - name: Packt Publishing
+      url: http://www.packtpub.com
+    - name: Die Socialisten
+      url: http://die.socialisten.at
+    - name: SuperFi
+      url: http://super-fi.eu
+    - name: TypoHeads
+      url: http://www.typoheads.at
+    - name: Vienna Digital
+      url: http://www.viennadigital.com
     - name: wogibtswas.at
       url: http://www.wogibtswas.at
