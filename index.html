@@ -19,7 +19,7 @@ title: Vienna PHP User Group
         <h2 id="anchor-next">Next Meetup "{{ site.data.meetup.title }}"</h2>
         <div class="panel callout radius">
             <h5>{{ site.data.meetup.date }}, {{ site.data.meetup.time }} at {{ site.data.meetup.location }}</h5>
-            <h5>The agenda:</h5>
+            <p>{{ site.data.meetup.description }}</p>
             <ul class="circle">
                 {% for agenda in site.data.meetup.agenda %}
                 <li>"<strong>{{ agenda.title }}</strong>" by {{ agenda.speaker }}</li>
