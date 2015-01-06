@@ -61,34 +61,23 @@ title: Vienna PHP User Group
         <p>For each and every metting, we find some great companies who give us some of their hard earned cash to buy some snacks and drinks for the audience. You should check them out!</p>
         <h3>All time sponsors</h3>
         <ul class="sponsors no-bullet clearfix">
+            {% for sponsor in site.data.sponsors.alltime %}
             <li class="left">
-                <a class="th radius" href="https://www.jetbrains.com/" target="_blank">
-                    <img src="media/sponsors/jetbrains.gif" alt="Jetbrains logo" title="Jetbrains logo">
+                <a class="th radius" href="{{ sponsor.url }}" target="_blank">
+                    <img src="media/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }} logo">
                 </a>
             </li>
-            <li class="left">
-                <a class="th radius" href="http://stockwerk.co.at/" target="_blank">
-                    <img src="media/sponsors/stockwerk.png" alt="Stockwerk logo" title="Stockwerk logo">
-                </a>
-            </li>
+            {% endfor %}
         </ul>
         <h3>Recurring sponsors</h3>
         <ul class="sponsors no-bullet clearfix">
+            {% for sponsor in site.data.sponsors.recurring %}
             <li class="left">
-                <a class="th radius" href="http://25th-floor.at/" target="_blank">
-                    <img src="media/sponsors/25th-floor.png" alt="25th-floor logo" title="25th-floor logo">
+                <a class="th radius" href="{{ sponsor.url }}" target="_blank">
+                    <img src="media/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }} logo">
                 </a>
             </li>
-            <li class="left">
-                <a class="th radius" href="http://www.easyname.com/en" target="_blank">
-                    <img src="media/sponsors/easyname.png" alt="easyname.com logo" title="easyname.com logo">
-                </a>
-            </li>
-            <li class="left">
-                <a class="th radius" href="http://m-software.at/" target="_blank">
-                    <img src="media/sponsors/m-software.png" alt="M-Software logo" title="M-Sfotware logo">
-                </a>
-            </li>
+            {% endfor %}
         </ul>
         <h3>One time sponsors</h3>
         <ul class="sponsors no-bullet clearfix">

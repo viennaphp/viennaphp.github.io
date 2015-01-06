@@ -1,0 +1,17 @@
+alltime:
+    - name: Jetbrains
+      url: http://www.jetbrains.com
+      logo: jetbrains.gif
+    - name: Stockwerk
+      url: http://stockwerk.co.at
+      logo: stockwerk.png
+recurring:
+    - name: 25th-floor
+      url: http://25th-floor.at
+      logo: 25th-floor.png
+    - name: easyname.com
+      url: http://www.easyname.com/en
+      logo: easyname.png 
+    - name: M-Software
+      url: http://m-software.at/
+      logo: m-software.png
