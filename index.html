@@ -81,16 +81,13 @@ title: Vienna PHP User Group
         </ul>
         <h3>One time sponsors</h3>
         <ul class="sponsors no-bullet clearfix">
+            {% for sponsor in site.data.sponsors.onetime %}
             <li class="left">
-                <a class="th radius" href="http://www.dbschenker.at" target="_blank">
-                    <img src="media/sponsors/db-schenker.jpg" alt="DB Schenker logo" title="DB Schenker logo">
+                <a class="th radius" href="{{ sponsor.url }}" target="_blank">
+                    <img src="media/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }} logo">
                 </a>
             </li>
-            <li class="left">
-                <a class="th radius" href="http://www.keyosk-tablets.com/" target="_blank">
-                    <img src="media/sponsors/keyosk-tablets.jpg" alt="Keyosk tablets logo" title="Keyosk tablets logo">
-                </a>
-            </li>
+            {% endfor %}
         </ul>
     </div>
     <div class="small-1 large-1 columns">&nbsp;</div>

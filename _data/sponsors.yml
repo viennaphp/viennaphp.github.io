@@ -13,5 +13,12 @@ recurring:
       url: http://www.easyname.com/en
       logo: easyname.png 
     - name: M-Software
-      url: http://m-software.at/
+      url: http://m-software.at
       logo: m-software.png
+onetime:
+    - name: DB Schenker
+      url: http://www.dbschenker.at
+      logo: db-schenker.jpg
+    - name: Keyosk Tablets
+      url: http://www.keyosk-tablets.com
+      logo: keyosk-tablets.jpg
