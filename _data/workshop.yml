@@ -1,0 +1,9 @@
+title: Ansible for beginners
+date: Tuesday, 27.01.2015
+time: "18:30"
+location: Stockwerk CoWorking
+description:
+    - Ansible describes itself as a tool to do IT automation. What is really does is take instructions written in yaml, ssh into remote servers and executes them. Using variables, roles, templates and facts you can organize these yaml files in a way that they describe your entire IT setup. Much like chef or puppet you'll be able to setup, configure and update remote servers from one central node without the need to manually run commands on them.
+    - This workshop will cover the basics. We'll look into the difference between Ansible and other tools like puppet and chef. Of course we'll write some simple playbooks and look at real life examples.
+trainer: Sebastian Göttschkes
+link: http://www.meetup.com/viennaphp/events/219592893/
