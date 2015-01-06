@@ -8,6 +8,7 @@ title: Vienna PHP User Group
         <div id="anchor-viennaphp" class="logocontainer">
             <img class="logo" src="media/logo.jpg" />
         </div>
+        <h1>ViennaPHP</h1>
         <p>The Vienna PHP User Group is a usergroup which gathers like-minded developers on a regular basis. The idea is to get people to exchange ideas regarding PHP, Web- and Software development.</p>
      </div>
     <div class="small-1 large-1 columns">&nbsp;</div>
@@ -25,6 +26,21 @@ title: Vienna PHP User Group
                 {% endfor %}
             </ul>
             <p><strong><a href="{{ site.data.meetup.link }}" target="_blank">You should RSVP!</a></strong></p>
+        </div>
+     </div>
+    <div class="small-1 large-1 columns">&nbsp;</div>
+</div>
+<div class="row">
+    <div class="small-1 large-1 columns">&nbsp;</div>
+    <div class="small-10 large-10 columns">
+        <h2 id="anchor-next">Next Workshop "{{ site.data.workshop.title }}"</h2>
+        <div class="panel callout radius">
+            <h5>{{ site.data.workshop.date }}, {{ site.data.workshop.time }} at {{ site.data.workshop.location }}</h5>
+            {% for item in site.data.workshop.description %}
+            <p>{{ item }}</p>
+            {% endfor %}
+            <p>Your trainer will be: {{ site.data.workshop.trainer }}</p>
+            <p><strong><a href="{{ site.data.workshop.link }}" target="_blank">You can RSVP now!</a></strong></p>
         </div>
      </div>
     <div class="small-1 large-1 columns">&nbsp;</div>
