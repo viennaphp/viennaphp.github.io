@@ -30,12 +30,12 @@ body#default {
     }
 
     ul.sponsors li {
-        padding-right: 1rem;
+        padding: 0 1rem 1rem 0;
 
         div.fallback-image {
             width: 200px;
-            height: 200px;
-            line-height: 200px;
+            height: 100px;
+            line-height: 100px;
 
             text-align: center;
             span {
