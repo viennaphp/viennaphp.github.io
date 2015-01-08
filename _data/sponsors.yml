@@ -37,6 +37,7 @@ onetime:
       url: http://www.ixolit.com/de
     - name: karriere.at
       url: http://www.karriere.at
+      logo: karriere-at.jpg
     - name: Keyosk Tablets
       url: http://www.keyosk-tablets.com
       logo: keyosk-tablets.jpg
