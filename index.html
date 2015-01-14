@@ -116,7 +116,7 @@ title: Vienna PHP User Group
         <h2 id="anchor-archive">Archive</h2>
         <h3>Recent newsletters:</h3>
         <ul>
-            {% for page in site.pages %}
+            {% for page in site.pages reversed %}
             {% if page.category == "email" %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
