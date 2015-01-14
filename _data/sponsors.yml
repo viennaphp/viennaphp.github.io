@@ -15,6 +15,9 @@ recurring:
     - name: M-Software
       url: http://m-software.at
       logo: m-software.png
+    - name: Use the Index, Luke!
+      url: http://use-the-index-luke.com/
+      logo: use-the-index-luke.png
 onetime:
     - name: AlpinResorts.com
       url: http://www.alpinresorts.com
@@ -33,6 +36,9 @@ onetime:
       url: http://www.engineyard.com
     - name: GetDesigned
       url: http://www.getdesigned.at/
+    - name: Goldbach Interactive
+      url: http://www.goldbachaustria.at/
+      logo: goldbach-interactive.png
     - name: Ixolit
       url: http://www.ixolit.com/de
     - name: karriere.at
