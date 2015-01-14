@@ -31,18 +31,20 @@ body#default {
 
     ul.sponsors li {
         padding: 0 1rem 1rem 0;
-
-        div.fallback-image {
+        
+        a {
+            display: block;
+            
             width: 200px;
+            height: 200px;
+            line-height: 200px;
+            
+            text-align: center;
+        }
+    }
+    
+    ul.sponsors.onetime li a {
             height: 100px;
             line-height: 100px;
-
-            text-align: center;
-            span {
-                display:inline-block;
-
-                vertical-align:middle;
-            }
-        }
     }
 }
