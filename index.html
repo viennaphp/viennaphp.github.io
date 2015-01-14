@@ -110,3 +110,18 @@ title: Vienna PHP User Group
     </div>
     <div class="small-1 large-1 columns">&nbsp;</div>
 </div>
+<div class="row">
+    <div class="small-1 large-1 columns">&nbsp;</div>
+    <div class="small-10 large-10 columns">
+        <h2 id="anchor-archive">Archive</h2>
+        <h3>Recent newsletters:</h3>
+        <ul>
+            {% for page in site.pages %}
+            {% if page.category == "email" %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="small-1 large-1 columns">&nbsp;</div>
+</div>
