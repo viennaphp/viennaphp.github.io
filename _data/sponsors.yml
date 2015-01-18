@@ -1,4 +1,7 @@
 alltime:
+    - name: GitHub
+      url: https://www.github.com
+      logo: github.png
     - name: Jetbrains
       url: http://www.jetbrains.com
       logo: jetbrains.gif
@@ -41,6 +44,9 @@ onetime:
       logo: goldbach-interactive.png
     - name: Ixolit
       url: http://www.ixolit.com/de
+    - name: JustIMMO
+      url: http://www.justimmo.at/
+      logo: justimmo.jpg
     - name: karriere.at
       url: http://www.karriere.at
       logo: karriere-at.jpg
