@@ -1,11 +1,11 @@
-title: Welcome 2015
-date: Monday, 19.01.2015
+title: Visions of the future
+date: Tuesday, 20.02.2015
 time: "18:30"
 location: Stockwerk CoWorking
-description: Let's get some action after the cosy christmas days. We'll jump right into the action with great content from well-known speakers.
+description: Node.js is "the hot stuff" right now and it hasn't even started. Data is everywhere and everyone tries to make money using it. With this two outlooks for 2015 we'll use our meetup in February to talk about Javascript and Node.js as well as data processing with PHP. 
 agenda:
-    - title: A introduction to phalcon
-      speaker: Jakob Oberhummer
-    - title: Coding PHP with Drupal 8
-      speaker: Wolfgang Ziegler
-link: http://www.meetup.com/viennaphp/events/219443095/
+    - title: Javascript and Node.js for PHP developers
+      speaker: Daniel Laxar
+    - title: Testable and reusable data processing
+      speaker: Florian Eckerstorfer
+link: http://www.meetup.com/viennaphp/events/219443542/
