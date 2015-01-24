@@ -55,6 +55,9 @@ onetime:
       logo: keyosk-tablets.jpg
     - name: Medani Web & Design
       url: http://www.medani.at
+    - name: NZZ.at
+      url: http://www.nzz.at
+      logo: nzz-at.jpg
     - name: Opendo
       url: http://www.opendo.at
     - name: OpenForce
