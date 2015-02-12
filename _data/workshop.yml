@@ -1,9 +1,9 @@
-title: Ansible for beginners
-date: Tuesday, 27.01.2015
+title: Basics of MySQL Indexing
+date: Wednesday, 25.02.2015
 time: "18:30"
 location: Stockwerk CoWorking
 description:
-    - Ansible describes itself as a tool to do IT automation. What is really does is take instructions written in yaml, ssh into remote servers and executes them. Using variables, roles, templates and facts you can organize these yaml files in a way that they describe your entire IT setup. Much like chef or puppet you'll be able to setup, configure and update remote servers from one central node without the need to manually run commands on them.
-    - This workshop will cover the basics. We'll look into the difference between Ansible and other tools like puppet and chef. Of course we'll write some simple playbooks and look at real life examples.
-trainer: Sebastian Göttschkes
-link: http://www.meetup.com/viennaphp/events/219592893/
+    - This workshop is for developers and administrators who want to learn the most important tricks (and traps) of MySQL indexing. It does not assume any previous knowledge on this topic or about database performance in general — all you need to know is SQL.
+    - The course starts with the basics: what is an index and how does it affect performance. Next we'll have a look at indexes in MySQL: how does MySQL decide which index you use—or not to use one at all—and how to see which index is used. However, the main part of the course addresses the million dollar question: how to define the right indexes?
+trainer: Markus Winand
+link: http://www.meetup.com/viennaphp/events/219592904/
