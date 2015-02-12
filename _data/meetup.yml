@@ -1,11 +1,11 @@
-title: Visions of the future
-date: Tuesday, 10.02.2015
+title: Content!
+date: Tuesday, 10.03.2015
 time: "18:30"
 location: Stockwerk CoWorking
-description: Node.js is "the hot stuff" right now and it hasn't even started. Data is everywhere and everyone tries to make money using it. With this two outlooks for 2015 we'll use our meetup in February to talk about Javascript and Node.js as well as data processing with PHP. 
+description: Let's dive into some interesting technology this time. Not only did we got the ember.js UG organisator talking about ruby, but we can also take a glimps on how easy it is to build a REST Api. Pretty cool, isn't it?
 agenda:
-    - title: Javascript and Node.js for PHP developers
-      speaker: Daniel Laxar
-    - title: Testable and reusable data processing
-      speaker: Florian Eckerstorfer
-link: http://www.meetup.com/viennaphp/events/219443542/
+    - title: Ruby for PHP devs
+      speaker: Stefan Haslinger
+    - title: Building a lightweight Restful Api on the fly
+      speaker: Ali Sharif
+link: http://www.meetup.com/viennaphp/events/219443548/
