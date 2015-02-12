@@ -3,7 +3,7 @@ date: Wednesday, 25.02.2015
 time: "18:30"
 location: Stockwerk CoWorking
 description:
-    - This workshop is for developers and administrators who want to learn the most important tricks (and traps) of MySQL indexing. It does not assume any previous knowledge on this topic or about database performance in general — all you need to know is SQL.
-    - The course starts with the basics: what is an index and how does it affect performance. Next we'll have a look at indexes in MySQL: how does MySQL decide which index you use—or not to use one at all—and how to see which index is used. However, the main part of the course addresses the million dollar question: how to define the right indexes?
+    - "This workshop is for developers and administrators who want to learn the most important tricks (and traps) of MySQL indexing. It does not assume any previous knowledge on this topic or about database performance in general — all you need to know is SQL."
+    - "The course starts with the basics: what is an index and how does it affect performance. Next we'll have a look at indexes in MySQL: how does MySQL decide which index you use—or not to use one at all—and how to see which index is used. However, the main part of the course addresses the million dollar question: how to define the right indexes?"
 trainer: Markus Winand
 link: http://www.meetup.com/viennaphp/events/219592904/
