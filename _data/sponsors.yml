@@ -64,6 +64,8 @@ onetime:
       url: http://www.openforce.com
     - name: Packt Publishing
       url: http://www.packtpub.com
+    - name: Redact Media
+      url: http://www.redact-media.com/
     - name: Die Socialisten
       url: http://die.socialisten.at
     - name: SuperFi
