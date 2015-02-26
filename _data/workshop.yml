@@ -1,9 +1,9 @@
-title: Basics of MySQL Indexing
-date: Wednesday, 25.02.2015
+title: A Pragmatic Introduction to Unit Testing with PHP
+date: Wednesday, 18.03.2015
 time: "18:30"
 location: Stockwerk CoWorking
 description:
-    - "This workshop is for developers and administrators who want to learn the most important tricks (and traps) of MySQL indexing. It does not assume any previous knowledge on this topic or about database performance in general — all you need to know is SQL."
-    - "The course starts with the basics: what is an index and how does it affect performance. Next we'll have a look at indexes in MySQL: how does MySQL decide which index you use—or not to use one at all—and how to see which index is used. However, the main part of the course addresses the million dollar question: how to define the right indexes?"
-trainer: Markus Winand
-link: http://www.meetup.com/viennaphp/events/219592904/
+    - "We will start with a few best practises for unit testing followed by a quick tour through the main features of PHPUnit (if needed). In the main part of the workshop we will design and write (unit) test cases for some legacy code. The code contains some business logic, together with a requirements specification, but no tests. We will experiment with different test cases and focus on various aspects of unit tests, e.g. naming, duplication, isolation, etc."
+    - "You'll work on code yourself, so please bring your laptop. You should also have PHP installed and be able to run PHPUnit in a matter of minutes."
+trainer: Peter Kofler
+link: http://www.meetup.com/viennaphp/events/219592928/
