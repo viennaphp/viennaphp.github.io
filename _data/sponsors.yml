@@ -66,6 +66,7 @@ onetime:
       url: http://www.packtpub.com
     - name: Redact Media
       url: http://www.redact-media.com/
+      logo: redact-media.png
     - name: Die Socialisten
       url: http://die.socialisten.at
     - name: SuperFi
