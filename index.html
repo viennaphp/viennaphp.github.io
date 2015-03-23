@@ -38,7 +38,9 @@ title: Vienna PHP User Group
             {% for item in site.data.workshop.description %}
             <p>{{ item }}</p>
             {% endfor %}
+            {% if site.data.workshop.trainer %}
             <p>Your trainer will be: {{ site.data.workshop.trainer }}</p>
+            {% endif %}
             <p><strong><a href="{{ site.data.workshop.link }}" target="_blank">You can RSVP now!</a></strong></p>
         </div>
      </div>
