@@ -1,11 +1,13 @@
-title: Content!
-date: Tuesday, 10.03.2015
+title: Birthday
+date: Friday, 17.04.2015
 time: "18:30"
 location: Stockwerk CoWorking
-description: Let's dive into some interesting technology this time. Not only did we got the ember.js UG organisator talking about ruby, but we can also take a glimps on how easy it is to build a REST Api. Pretty cool, isn't it?
+description: Remember last year? We had awesome talks, cupcakes and a party afterwards. We'll top the last birthday party this year! Come join us for the best meetup yet!
 agenda:
-    - title: Ruby for PHP devs
-      speaker: Stefan Haslinger
-    - title: Building a lightweight Restful Api on the fly
-      speaker: Ali Sharif
-link: http://www.meetup.com/viennaphp/events/219443548/
+    - title: Why ViennaPHP?
+      speaker: Sebastian Göttschkes
+    - title: Laravel 5
+      speaker: Christoph Rumpel
+    - title: Building cllctr
+      speaker: Sebastian Göttschkes
+link: http://www.meetup.com/viennaphp/events/221064807/

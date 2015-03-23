@@ -1,9 +1,8 @@
-title: A Pragmatic Introduction to Unit Testing with PHP
-date: Wednesday, 18.03.2015
-time: "18:30"
-location: Stockwerk CoWorking
+title: Birthday Drinkup
+date: Tuesday, 28.04.2015
+time: "19:00"
+location: tba!
 description:
-    - "We will start with a few best practises for unit testing followed by a quick tour through the main features of PHPUnit (if needed). In the main part of the workshop we will design and write (unit) test cases for some legacy code. The code contains some business logic, together with a requirements specification, but no tests. We will experiment with different test cases and focus on various aspects of unit tests, e.g. naming, duplication, isolation, etc."
-    - "You'll work on code yourself, so please bring your laptop. You should also have PHP installed and be able to run PHPUnit in a matter of minutes."
-trainer: Peter Kofler
-link: http://www.meetup.com/viennaphp/events/219592928/
+    - ViennaPHP celebrates it's second birthday and instead of doing a workshop, we'll get together and socialize a bit!
+trainer: ~
+link: http://www.meetup.com/viennaphp/events/221077287/
