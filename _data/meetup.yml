@@ -1,13 +1,13 @@
-title: Birthday
-date: Friday, 17.04.2015
+title: Ecommerce
+date: Monday, 18.05.2015
 time: "18:30"
 location: Stockwerk CoWorking
-description: Remember last year? We had awesome talks, cupcakes and a party afterwards. We'll top the last birthday party this year! Come join us for the best meetup yet!
+description: For May, we'll join forces with the Magento Meetup in order to provide you with information on the state of Ecommerce in 2015. We'll also try to have more content this time and squeeze in 3 (shorter) talks!
 agenda:
-    - title: Why ViennaPHP?
-      speaker: Sebastian Göttschkes
-    - title: Laravel 5
-      speaker: Christoph Rumpel
-    - title: Building cllctr
-      speaker: Sebastian Göttschkes
-link: http://www.meetup.com/viennaphp/events/221064807/
+    - title: Outlook on Magento 2
+      speaker: Matthias Zeis
+    - title: Building a framework! a short Summary over 5 years of curiosity.
+      speaker: Christoph Jakob Oberhummer
+    - title: tda
+      speaker: tba
+link: http://www.meetup.com/viennaphp/events/221231242/
