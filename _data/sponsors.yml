@@ -15,6 +15,9 @@ recurring:
     - name: easyname.com
       url: http://www.easyname.com/en
       logo: easyname.png 
+    - name: karriere.at
+      url: http://www.karriere.at
+      logo: karriere-at.jpg
     - name: M-Software
       url: http://m-software.at
       logo: m-software.png
@@ -47,9 +50,6 @@ onetime:
     - name: JustIMMO
       url: http://www.justimmo.at/
       logo: justimmo.jpg
-    - name: karriere.at
-      url: http://www.karriere.at
-      logo: karriere-at.jpg
     - name: Keyosk Tablets
       url: http://www.keyosk-tablets.com
       logo: keyosk-tablets.jpg
