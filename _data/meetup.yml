@@ -1,9 +1,11 @@
-title: June
+title: Outside the box
 date: Tuesday, 09.06.2015
 time: "18:30"
 location: Stockwerk CoWorking
 description: ~
 agenda:
+    - title: Haskell for PHP devs
+      speaker: Martin Heuschober
     - title: Functional programming in PHP
       speaker: Ali Sharif
 link: http://www.meetup.com/viennaphp/events/221231261/
