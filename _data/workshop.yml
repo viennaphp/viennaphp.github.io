@@ -1,8 +1,9 @@
-title: Hacklang
-date: Tuesday, 26.05
+title: PostgreSQL Indexing
+date: Tuesday, 23.06
 time: "18:30"
 location: Stockwerk CoWorking, Pater-Schwartz-Fasse 11A, 1150 Vienna
 description:
-    - This time we'll have Daniel Laxar doing a "Hack" Workshop! This means you'll learn hands-on how to use Hack, the PHP-Like language for the HHVM!
-trainer: Daniel Laxar
-link: http://www.meetup.com/viennaphp/events/221231247/
+    - "This workshop is for developers and administrators who want to learn the most important tricks (and traps) of PostgreSQL indexing. It does not assume any previous knowledge on this topic or about database performance in general — all you need to know is SQL."
+    - "The course starts with the basics: What is an index and how does it affect performance. Next we'll have a look at indexes in PostgreSQL: How does PostgreSQL decide which index you use — or not to use one at all — and how to see which index is used. However, the main part of the course addresses the million dollar question: How to define the right indexes?"
+trainer: Markus Winand
+link: http://www.meetup.com/viennaphp/events/221231268/
