@@ -5,7 +5,7 @@ $script = <<SCRIPT
 export DEBIAN_FRONTEND=noninteractive
 apt-get update &> /dev/null
 apt-get install -y ruby ruby-dev &> /dev/null
-gem install --no-rdoc --no-ri bundler jekyll rake &> /dev/null
+gem install --no-rdoc --no-ri bundler jekyll rake travis &> /dev/null
 apt-get install -t jessie -y nodejs &> /dev/null
 SCRIPT
 
