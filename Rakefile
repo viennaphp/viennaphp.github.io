@@ -21,12 +21,12 @@ task :serve do
 end
 
 desc "Run jekyll build command"
-task :build do
+task :generate do
     system "jekyll build"
 end
 
 desc "Build and publish blog to gh-pages"
-task :publish => [:build] do
+task :publish => [:generate] do
     Dir.mktmpdir do |tmp|
         cp_r "_site/.", tmp
 
