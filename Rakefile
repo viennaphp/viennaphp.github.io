@@ -27,8 +27,8 @@ task :publish => [:generate] do
         Dir.chdir tmp
 
         system "git init"
-        system "git config user.name 'Sebastian Göttschkes'"
-        system "git config user.email 'sebastian.goettschkes@googlemail.com'"
+        system "git config user.name 'ViennaPHP (on TravisCI)'"
+        system "git config user.email 'viennaphp.on.travis@blank.com'"
 
         system "git add ."
         message = "Site updated at #{Time.now.utc}"
