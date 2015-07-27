@@ -4,7 +4,7 @@ description: ""
 url: "http://viennaphp.org"
 
 # Build settings
-exclude: ['Rakefile']
+exclude: ['Rakefile', 'Vagrantfile']
 timezone: Europe/Vienna
 encoding: utf-8
 markdown: kramdown
