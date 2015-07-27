@@ -12,14 +12,17 @@ task :update do
     system "git stash pop"
 end
 
+desc "Generate blog files"
+task :generate do
+    Jekyll::Site.new(Jekyll.configuration({
+        "source"      => ".",
+        "destination" => "_site"
+    })).process
+end
+
 desc "Run jekyll serve command"
 task :serve do
     system "jekyll serve --watch --force_polling"
-end
-
-desc "Run jekyll build command"
-task :generate do
-    system "jekyll build"
 end
 
 desc "Build and publish blog to gh-pages"
