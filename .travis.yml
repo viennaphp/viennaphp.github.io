@@ -9,3 +9,6 @@ install:
     - gem install --no-rdoc --no-ri bundler jekyll rake
 script:
     - rake generate
+env:
+    global:
+        secure: g6Ug9uewpGYoiOLSj0MPL6YpkfyHOnXstHZL5dP+QvWRRi58Qauqg5LlCWJWFxM1qequyaibR8ToCrmuEU3quYoMu8h8QetpzrsUqFX6HBmCblrU2nQA8knwnghlNaCpB/pMx78q0vADqoc+Mw1Zsb/ABXWRUFwSeS2DRmr2tA0=
