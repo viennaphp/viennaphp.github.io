@@ -3,6 +3,7 @@ require "tmpdir"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "viennaphp/viennaphp.github.io"
+GITHUB_REMOTE = "https://#{ENV['GH_TOKEN']}@github.com/#{GITHUB_REPONAME}"
 
 desc "Update repository"
 task :update do
