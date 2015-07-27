@@ -1,8 +1,5 @@
-require "rubygems"
-require "tmpdir"
-
-require "bundler/setup"
 require "jekyll"
+require "tmpdir"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "viennaphp/viennaphp.github.io"
