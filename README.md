@@ -1,6 +1,8 @@
 viennaphp/viennaphp.github.org
 ==============================
 
+[![Build Status](https://travis-ci.org/viennaphp/viennaphp.github.io.svg?branch=source)](https://travis-ci.org/viennaphp/viennaphp.github.io)
+
 The ViennaPHP website. View at [http://viennaphp.org](http://viennaphp.org)
 
 ## Contribute
