@@ -1,17 +1,8 @@
 require "jekyll"
 require "tmpdir"
 
-# Change your GitHub reponame
 GITHUB_REPONAME = "viennaphp/viennaphp.github.io"
 GITHUB_REMOTE = "https://#{ENV['GH_TOKEN']}@github.com/#{GITHUB_REPONAME}"
-
-desc "Update repository"
-task :update do
-    system "git stash save"
-    system "git pull"
-    system "git push origin source"
-    system "git stash pop"
-end
 
 desc "Generate blog files"
 task :generate do
