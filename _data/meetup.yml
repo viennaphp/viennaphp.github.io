@@ -1,11 +1,11 @@
-title: Outside the box
-date: Tuesday, 09.06.2015
+title: Be a better developer
+date: Wednesday, 16.09.2015
 time: "18:30"
 location: Stockwerk CoWorking
 description: ~
 agenda:
-    - title: Haskell for PHP devs
-      speaker: Martin Heuschober
-    - title: Functional programming in PHP
+    - title: Creating a better Developer Experience
       speaker: Ali Sharif
-link: http://www.meetup.com/viennaphp/events/221231261/
+    - title: Interpreter changes in PHP7 and the RFCs
+      speaker: Jakob Oberhummer
+link: http://www.meetup.com/de/viennaphp/events/224394719/
