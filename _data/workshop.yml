@@ -1,11 +1,9 @@
-title: Unit Testing with PHP
-date: Wednesday, 09.09.2015
+title: tba
+date: Wednesday, 21.10.2015
 time: "18:30"
 location: Stockwerk CoWorking, Pater-Schwartz-Fasse 11A, 1150 Vienna
 description:
-    - "After covering the basics and best practises of unit testing in the March workshop (http://www.meetup.com/viennaphp/events/219592928/), we will design and write (unit) test cases for some legacy code this time. The code contains some business logic, together with a requirements specification, but no tests. We will experiment with different test cases and focus on various aspects of unit tests, e.g. PHPUnit features, test case naming, duplication, isolation, etc."
-    - "You'll work on code yourself, so please bring your laptop. You should also have PHP installed and be able to run PHPUnit in a matter of minutes."
-    - "Peter Kofler is a software developer since 15 years and still enthusiastic about writing code. He likes his code being in order. Obviously he is fanatic about code quality. He helps teams of Software Developers to raise the quality of their work and improve their productivity. He regularly facilitates 
-      Coding Dojos and Code Retreats."
-trainer: Peter Kofler
-link: http://www.meetup.com/de/viennaphp/events/224417959/
+    - "t.b.a"
+trainer: tba
+link: http://www.meetup.com/de/viennaphp/events/225038365/ 
+
