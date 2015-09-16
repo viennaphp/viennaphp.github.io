@@ -1,0 +1,24 @@
+h2 {
+  padding-bottom: 1.25rem; }
+
+body#default div.logocontainer {
+  padding: 2.5rem 0;
+  text-align: center; }
+body#default div.row {
+  margin-bottom: 2rem; }
+body#default div.contain-to-grid > div.row {
+  height: 10rem;
+  margin-bottom: 0px;
+  padding: 10px 0px;
+  color: #ffffff; }
+body#default ul.sponsors li {
+  padding: 0 1rem 1rem 0; }
+  body#default ul.sponsors li a {
+    display: block;
+    width: 208px;
+    height: 208px;
+    line-height: 200px;
+    text-align: center; }
+body#default ul.sponsors.onetime li a {
+  height: 108px;
+  line-height: 108px; }
