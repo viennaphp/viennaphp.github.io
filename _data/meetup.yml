@@ -1,9 +1,12 @@
-title: October Gathering
-date: Wednesday, 14.10.2015
+title: November Gathering
+date: Thursday, 23.11.2017
 time: "18:30"
 location: Stockwerk CoWorking
 description: ~
 agenda:
-    - title: Bartacus - Modernizing legacy CMS applications with Symfony
-      speaker: Patrik Karisch 
-link: http://www.meetup.com/de/viennaphp/events/224564663/
+    - title: "18 years in the making"
+      speaker: Rudolf Staribacher
+    
+    - title: "Increasing code quality: Static Analysis"
+      speaker: Emir Beganovic
+link: https://www.meetup.com/viennaphp/events/240986945/ 
